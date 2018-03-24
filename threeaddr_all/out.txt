@@ -1,0 +1,32 @@
+0 t0 = b + c
+1 a = t0
+2 if(a < b) goto 4
+3 goto 13
+4 t1 = 5 * 80
+5 t2 = 2 * 4
+6 t3 = t1 + t2
+7 t4 = d[t3]
+8 if(c < t4) goto 10
+9 goto 13
+10 t5 = b + c
+11 a = t5
+12 goto 15
+13 t6 = y + y
+14 x = t6
+15 t7 = c * a
+16 b = t7
+17 if(a < b) goto 21
+18 goto 19
+19 if(c < a) goto 21
+20 goto 24
+21 t8 = c + a
+22 c = t8
+23 goto 17
+24 t9 = 5 * 80
+25 t10 = 1 * 4
+26 t11 = t9 + t10
+27 t12 = 4 * 80
+28 t13 = 3 * 4
+29 t14 = t12 + t13
+30 t15 = d[t14]
+31 d[t11]= t15

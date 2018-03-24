@@ -1,0 +1,2 @@
+1. syntax tree for any arithmetic expression
+2. 3address code for assignment with array reference both on LHS and RHS
