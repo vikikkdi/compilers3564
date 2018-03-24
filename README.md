@@ -12,6 +12,7 @@
 
 
 How to execute :
+  * Open a terminal
   * move into the corresponding folder
   * chmod 777 exec.sh #give all permissions for exec.sh file
   * ./exec.sh #for providing other inputs, change the last line of exec.sh as ./a.out < ($your filename.txt)
