@@ -17,4 +17,4 @@ How to execute :
   * chmod 777 exec.sh #give all permissions for exec.sh file
   * ./exec.sh #for providing other inputs, change the last line of exec.sh as ./a.out < ($your filename.txt)
 
-# for folders having "(1)" in their names, remove that "(1)" from the file names for the files inside that folder before executing.
+#for folders having "(1)" in their names, remove that "(1)" from the file names for the files inside that folder before executing.
