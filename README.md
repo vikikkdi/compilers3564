@@ -8,7 +8,7 @@
 * folder dag_opt_all and dag_opt_all(1) -> it generates dag for a given block of statements and removes copy propagation, constant folding and common sub expression and generates optimized three address statements for that block.
 * folder symbol table -> given a set of declaration statements, it generates its symbol table.
 * folder syntax tree -> creates a syntax tree for an arithmetic expression.
-* folder threeaddr+array+symboltree and threeaddr_all -> creates three address statements for any kind of c statements(inclusing array reference of any dimension).
+* folder threeaddr+array+symboltable+symboltable and threeaddr_all -> creates three address statements for any kind of c statements(inclusing array reference of any dimension).
 
 
 How to execute :
