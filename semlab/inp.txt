@@ -1,0 +1,16 @@
+init l1,1
+init l2,2
+init l3
+l3=l1||l2
+l3=l3||l1
+l3=l3||l2
+@l3
+l3?6
+l3?2
+l1#l2
+init l4,5
+l4=l1||l4
+@l4
+l3#l4
++l3
++l4
